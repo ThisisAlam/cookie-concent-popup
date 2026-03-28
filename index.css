@@ -103,7 +103,11 @@ main{
   border: 1px solid transparent;
   color: whitesmoke;
 }
-
+#accept-btn:hover, #accept-btn:focus {
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #54ff76b4;
+}
 .modal-close-btn:hover,
 .modal-close-btn:active{
     color: red;
